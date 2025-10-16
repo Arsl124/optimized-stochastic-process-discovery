@@ -76,4 +76,4 @@ All other components, structures, and behaviors of the original framework remain
 
 ## Contact
 
-For any inquiries or assistance, please contact arslan.aslam@tu-ilemau.de
+For any inquiries or assistance, please contact arslan.aslam@tu-ilmenau.de
