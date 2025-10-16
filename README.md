@@ -56,6 +56,24 @@ Using the ***main.py*** script:
 &emsp; &emsp; `opt = Optimizer(ev, pn)`<br/>
 &emsp; &emsp; `opt.estimate(m, nw0, solver, maxiter, memoized, derivatives)`<br/>
 
+## Modifications in this version
+
+This version was explored to understand and extend existing tools and technologies for stochastic-based process discovery that go beyond structural discovery by adding an optimization layer.
+
+1. Minor updates were made to improve interpretability of optimization results:
+
+2. Added functionality to display and compare the pre- and post-optimization weights stored internally.
+
+3. Added printouts for per-state outgoing probabilities and trace distributions (Log vs Model) before and after optimization.
+
+4. New summary section appear in the console output for clearer evaluation of optimization impact.
+
+5. EMD is sat to 0.0 to avoid longer runtime and complexity.
+
+All changes implemented in cal/Optimizer/optimizer.py with relevant comments.
+
+All other components, structures, and behaviors of the original framework remain unchanged.
+
 ## Contact
 
-For any inquiries or assistance, please contact pierre.cry@centralesupelec.fr
+For any inquiries or assistance, please contact arslan.aslam@tu-ilemau.de
